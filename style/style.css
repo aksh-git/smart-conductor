@@ -177,6 +177,11 @@ body{
     display: block;
 }
 
+.addPassBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem 0;
+}
 .addPassBtn button{
     all: unset;
     float: right;
