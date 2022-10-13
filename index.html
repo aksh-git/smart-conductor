@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="./lib/utils/Utils.js"></script>
+    <script src="./lib/modals/modal.js"></script>
+    <script src="./lib/p5/p5.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="./js/sketch.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="status"></div>
+            <div class="logger"></div>
+        </div>
+        <div class="bus">
+            <div class="engine">
+                <div class="dashbaord"></div>
+                <div class="c-space"></div>
+            </div> 
+            <div class="enterance">
+                <div id="door" class="door"></div>
+            </div>           
+            <div class="seats" id="seats"></div>  
+        </div>   
+        <div class="addPassBtn" >
+            <button onclick="addRandomPassenger()">Add Passenger</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
